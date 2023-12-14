@@ -1,9 +1,29 @@
 # Changelog
+
+## [17.1.0](https://github.com/primefaces/primeng-sass-theme/tree/17.1.0) (2023-12-13)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0...17.1.0)
+
+**Fixed bugs:**
+- Checkbox | Add missing invalid styles [\#86](https://github.com/primefaces/primeng-sass-theme/issues/86)
+- Dropdown | missing invalid styles [\#77](https://github.com/primefaces/primeng-sass-theme/issues/77)
+
+## [17.0.0](https://github.com/primefaces/primeng-sass-theme/tree/17.0.0) (2023-12-06)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0-rc.1...17.0.0)
+
+- No changes, provides semantic versioning compatibility for PrimeNG 17.0.0
+
+## [17.0.0-rc.1](https://github.com/primefaces/primeng-sass-theme/tree/17.0.0-rc.1) (2023-11-29)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.9.1...17.0.0-rc.1)
+
+**Enhancements:**
+- Update Lara [\#84](https://github.com/primefaces/primeng-sass-theme/issues/84)
+- DataView | Remove primeflex dependency [\#83](https://github.com/primefaces/primeng-sass-theme/issues/83)
+
 ## [16.9.1](https://github.com/primefaces/primeng-sass-theme/tree/16.9.1) (2023-11-23)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.9.0...16.9.1)
 
 - No changes, provides semantic versioning compatibility for PrimeNG 16.9.1
-- 
+
 ## [16.9.0](https://github.com/primefaces/primeng-sass-theme/tree/16.9.0) (2023-11-22)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.8.0...16.9.0)
 
