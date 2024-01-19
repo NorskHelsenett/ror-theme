@@ -1,5 +1,35 @@
 # Changelog
 
+## [17.3.3](https://github.com/primefaces/primeng-sass-theme/tree/17.3.3) (2023-01-18)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.2...17.3.3)
+
+- No changes, provides semantic versioning compatibility for PrimeNG 17.3.3
+
+## [17.3.2](https://github.com/primefaces/primeng-sass-theme/tree/17.3.2) (2024-01-10)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.1...17.3.2)
+
+**Fixed bugs:**
+- Tree | Add missing outline rule [\#91](https://github.com/primefaces/primeng-sass-theme/issues/91)
+
+## [17.3.1](https://github.com/primefaces/primeng-sass-theme/tree/17.3.1) (2024-01-04)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.0...17.3.1)
+
+**Fixed bugs:**
+- Splitter | Add missing focus-visible & material extension styles [\#89](https://github.com/primefaces/primeng-sass-theme/issues/89)
+- ScrollPanel | Add missing focus-visible & material extension styles [\#90](https://github.com/primefaces/primeng-sass-theme/issues/90)
+
+## [17.3.0](https://github.com/primefaces/primeng-sass-theme/tree/17.3.0) (2023-12-28)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.2.0...17.3.0)
+
+- No changes, provides semantic versioning compatibility for PrimeNG 17.3.0
+  
+## [17.2.0](https://github.com/primefaces/primeng-sass-theme/tree/17.2.0) (2023-12-20)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.1.0...17.2.0)
+
+**Fixed bugs:**
+- Lara Light Teal: $highlightBg implementation defect [\#88](https://github.com/primefaces/primeng-sass-theme/issues/88)
+
+
 ## [17.1.0](https://github.com/primefaces/primeng-sass-theme/tree/17.1.0) (2023-12-13)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0...17.1.0)
 
