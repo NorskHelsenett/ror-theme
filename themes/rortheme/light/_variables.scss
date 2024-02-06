@@ -1,16 +1,16 @@
 $colors: (
-  "blue": #3b82f6,
-  "green": #22c55e,
-  "yellow": #eab308,
-  "cyan": #02a67f,
-  "pink": #ec4899,
-  "indigo": #6366f1,
-  "teal": #02a67f,
-  "orange": #f97316,
-  "bluegray": #64748b,
-  "purple": #a855f7,
-  "red": #ff3d32,
-  "primary": $primaryColor,
+    'blue': #3b82f6,
+    'green': #22c55e,
+    'yellow': #eab308,
+    'cyan': #02a67f,
+    'pink': #ec4899,
+    'indigo': #6366f1,
+    'teal': #02a67f,
+    'orange': #f97316,
+    'bluegray': #64748b,
+    'purple': #a855f7,
+    'red': #ff3d32,
+    'primary': $primaryColor,
 );
 
 //reused color variables
@@ -26,18 +26,16 @@ $shade800: #343a40 !default; //unused
 $shade900: #212529 !default; //unused
 
 //global
-$fontFamily: "Inter var", sans-serif !default;
+$fontFamily: 'Inter var', sans-serif !default;
 $fontSize: 1rem !default;
 $fontWeight: normal !default;
 $textColor: $shade700 !default;
 $textSecondaryColor: $shade600 !default;
 $borderRadius: 6px !default;
 $transitionDuration: 0.2s !default;
-$formElementTransition: background-color $transitionDuration,
-  color $transitionDuration, border-color $transitionDuration,
-  box-shadow $transitionDuration !default;
-$actionIconTransition: background-color $transitionDuration,
-  color $transitionDuration, box-shadow $transitionDuration !default;
+$formElementTransition: background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration,
+    box-shadow $transitionDuration !default;
+$actionIconTransition: background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration !default;
 $listItemTransition: box-shadow $transitionDuration !default;
 $primeIconFontSize: 1rem !default;
 $divider: 1px solid $shade300 !default;
@@ -136,8 +134,7 @@ $buttonHoverBorderColor: $primaryDarkColor !default;
 $buttonActiveBg: $primaryDarkerColor !default;
 $buttonTextActiveColor: $primaryTextColor !default;
 $buttonActiveBorderColor: $primaryDarkerColor !default;
-$raisedButtonShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-  0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !default;
+$raisedButtonShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !default;
 $roundedButtonBorderRadius: 2rem !default;
 
 $textButtonHoverBgOpacity: 0.04 !default;
@@ -440,8 +437,7 @@ $cardSubTitleFontWeight: 400 !default;
 $cardSubTitleColor: $shade600 !default;
 $cardContentPadding: 1.25rem 0 !default;
 $cardFooterPadding: 1.25rem 0 0 0 !default;
-$cardShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-  0 1px 3px 0 rgba(0, 0, 0, 0.12) !default;
+$cardShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12) !default;
 
 //editor
 $editorToolbarBg: $panelHeaderBg !default;
@@ -834,54 +830,54 @@ $imagePreviewActionIconFontSize: 1.5rem !default;
 $imagePreviewActionIconBorderRadius: 50% !default;
 
 :root {
-  font-family: "Inter var", sans-serif;
-  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-  font-variation-settings: normal;
-  --font-family: "Inter var", sans-serif;
-  --font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-  --surface-a: #{$shade000};
-  --surface-b: #{$shade100};
-  --surface-c: #{$shade200};
-  --surface-d: #{$shade300};
-  --surface-e: #{$shade000};
-  --surface-f: #{$shade000};
-  --text-color: #{$shade700};
-  --text-color-secondary: #{$shade600};
-  --primary-color: #{$primaryColor};
-  --primary-color-text: #{$primaryTextColor};
-  --surface-0: #ffffff;
-  --surface-50: #f9fafb;
-  --surface-100: #f3f4f6;
-  --surface-200: #e5e7eb;
-  --surface-300: #d1d5db;
-  --surface-400: #9ca3af;
-  --surface-500: #6b7280;
-  --surface-600: #4b5563;
-  --surface-700: #374151;
-  --surface-800: #1f2937;
-  --surface-900: #111827;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-300: #d1d5db;
-  --gray-400: #9ca3af;
-  --gray-500: #6b7280;
-  --gray-600: #4b5563;
-  --gray-700: #374151;
-  --gray-800: #1f2937;
-  --gray-900: #111827;
-  --content-padding: #{$panelContentPadding};
-  --inline-spacing: #{$inlineSpacing};
-  --border-radius: #{$borderRadius};
-  --surface-ground: #eff8f4;
-  --surface-section: #ffffff;
-  --surface-card: #ffffff;
-  --surface-overlay: #ffffff;
-  --surface-border: #6b6c6c;
-  --surface-hover: #f6f9fc;
-  --focus-ring: #{$focusShadow};
-  --maskbg: #{$maskBg};
-  --highlight-bg: #{$highlightBg};
-  --highlight-text-color: #{$highlightTextColor};
-  color-scheme: light;
+    font-family: 'Inter var', sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    font-variation-settings: normal;
+    --font-family: 'Inter var', sans-serif;
+    --font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    --surface-a: #{$shade000};
+    --surface-b: #{$shade100};
+    --surface-c: #{$shade200};
+    --surface-d: #{$shade300};
+    --surface-e: #{$shade000};
+    --surface-f: #{$shade000};
+    --text-color: #{$shade700};
+    --text-color-secondary: #{$shade600};
+    --primary-color: #{$primaryColor};
+    --primary-color-text: #{$primaryTextColor};
+    --surface-0: #ffffff;
+    --surface-50: #f9fafb;
+    --surface-100: #f3f4f6;
+    --surface-200: #e5e7eb;
+    --surface-300: #d1d5db;
+    --surface-400: #9ca3af;
+    --surface-500: #6b7280;
+    --surface-600: #4b5563;
+    --surface-700: #374151;
+    --surface-800: #1f2937;
+    --surface-900: #111827;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+    --content-padding: #{$panelContentPadding};
+    --inline-spacing: #{$inlineSpacing};
+    --border-radius: #{$borderRadius};
+    --surface-ground: #eff8f4;
+    --surface-section: #afafaf;
+    --surface-card: #ffffff;
+    --surface-overlay: #afafaf;
+    --surface-border: #6b6c6c;
+    --surface-hover: #f6f9fc;
+    --focus-ring: #{$focusShadow};
+    --maskbg: #{$maskBg};
+    --highlight-bg: #{$highlightBg};
+    --highlight-text-color: #{$highlightTextColor};
+    color-scheme: light;
 }
