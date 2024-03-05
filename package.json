@@ -1,6 +1,6 @@
 {
     "name": "primeng-sass-theme",
-    "version": "17.7.0",
+    "version": "17.9.0",
     "description": "PrimeNG Sass Theme",
     "homepage": "https://primeng.org/",
     "repository": {
@@ -22,9 +22,9 @@
         "url": "https://github.com/primefaces/primeng-sass-theme/issues"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.21.0",
-        "@typescript-eslint/parser": "^6.21.0",
-        "eslint": "^8.56.0",
+        "@typescript-eslint/eslint-plugin": "^7.1.1",
+        "@typescript-eslint/parser": "^7.1.1",
+        "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-prettier": "^5.1.3",
         "prettier": "^3.2.5",

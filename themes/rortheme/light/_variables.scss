@@ -33,9 +33,15 @@ $textColor: $shade700 !default;
 $textSecondaryColor: $shade600 !default;
 $borderRadius: 6px !default;
 $transitionDuration: 0.2s !default;
-$formElementTransition: background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration,
+$formElementTransition:
+    background-color $transitionDuration,
+    color $transitionDuration,
+    border-color $transitionDuration,
     box-shadow $transitionDuration !default;
-$actionIconTransition: background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration !default;
+$actionIconTransition:
+    background-color $transitionDuration,
+    color $transitionDuration,
+    box-shadow $transitionDuration !default;
 $listItemTransition: box-shadow $transitionDuration !default;
 $primeIconFontSize: 1rem !default;
 $divider: 1px solid $shade300 !default;
@@ -134,7 +140,10 @@ $buttonHoverBorderColor: $primaryDarkColor !default;
 $buttonActiveBg: $primaryDarkerColor !default;
 $buttonTextActiveColor: $primaryTextColor !default;
 $buttonActiveBorderColor: $primaryDarkerColor !default;
-$raisedButtonShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !default;
+$raisedButtonShadow:
+    0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12) !default;
 $roundedButtonBorderRadius: 2rem !default;
 
 $textButtonHoverBgOpacity: 0.04 !default;
@@ -437,7 +446,10 @@ $cardSubTitleFontWeight: 400 !default;
 $cardSubTitleColor: $shade600 !default;
 $cardContentPadding: 1.25rem 0 !default;
 $cardFooterPadding: 1.25rem 0 0 0 !default;
-$cardShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12) !default;
+$cardShadow:
+    0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12) !default;
 
 //editor
 $editorToolbarBg: $panelHeaderBg !default;
@@ -470,13 +482,13 @@ $paginatorElementPadding: 0 !default;
 //table
 $tableHeaderBorder: 1px solid $shade300 !default;
 $tableHeaderBorderWidth: 1px 0 1px 0 !default;
-$tableHeaderBg: $shade100 !default;
+$tableHeaderBg: $shade200 !default;
 $tableHeaderTextColor: $shade800 !default;
 $tableHeaderFontWeight: 700 !default;
 $tableHeaderPadding: 1rem 1rem !default;
 
 $tableHeaderCellPadding: 1rem 1rem !default;
-$tableHeaderCellBg: $shade100 !default;
+$tableHeaderCellBg: $shade200 !default;
 $tableHeaderCellTextColor: $shade800 !default;
 $tableHeaderCellFontWeight: 700 !default;
 $tableHeaderCellBorder: 1px solid $shade300 !default;
